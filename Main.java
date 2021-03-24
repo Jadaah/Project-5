@@ -7,17 +7,15 @@ class Main {
 
     int wallet = scan.nextInt();
 
-    System.out.println(candy(wallet, candyPieces));
+    System.out.println(candy(wallet));
 
   }
 
-  public static int candy(wallet,candyPieces){
+  public static int candy(wallet){
  {
- int wallet = 10;
- if(wallet > 2 );
- wallet = wallet-2;
+ if(wallet >= 2 ){
+  wallet = wallet-2;
  }else{
-
-
+ return candyPieces;
   }
 }
